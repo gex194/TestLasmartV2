@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestLasmartV2", "TestLasmartV2.csproj", "{87165BF5-303D-4C8F-857A-1465585EEC1D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{87165BF5-303D-4C8F-857A-1465585EEC1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87165BF5-303D-4C8F-857A-1465585EEC1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87165BF5-303D-4C8F-857A-1465585EEC1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87165BF5-303D-4C8F-857A-1465585EEC1D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

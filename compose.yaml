@@ -1,0 +1,7 @@
+﻿services:
+  testlasmartv2:
+    image: testlasmartv2
+    build:
+      context: .
+      dockerfile: Dockerfile
+
