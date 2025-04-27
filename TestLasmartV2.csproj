@@ -27,4 +27,13 @@
       <Folder Include="Models\" />
     </ItemGroup>
 
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="Tests\obj\project.assets.json" />
+      <_ContentIncludedByDefault Remove="Tests\obj\project.packagespec.json" />
+      <_ContentIncludedByDefault Remove="Tests\obj\TestlasmartV2Tests.csproj.nuget.dgspec.json" />
+      <_ContentIncludedByDefault Remove="LasmartTests\obj\LasmartTests.csproj.nuget.dgspec.json" />
+      <_ContentIncludedByDefault Remove="LasmartTests\obj\project.assets.json" />
+      <_ContentIncludedByDefault Remove="LasmartTests\obj\project.packagespec.json" />
+    </ItemGroup>
+
 </Project>
