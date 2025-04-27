@@ -1,10 +1,28 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Test Task for Lasmart (V2)</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/konva@9/konva.min.js"></script>
+    <script src="point.js" type="module"></script>
+    <script src="comment.js" type="module"></script>
+    <script src="index.js" type="module" defer></script>
 </head>
 <body>
-$END$
+<button id="add-point">Add Point</button>
+<div style="border: 1px solid black; padding: 10px; margin-top: 10px; margin-bottom: 10px;">
+    <p>CONTROLS::</p>
+    <p>Delete point: Double click on point</p>
+    <p>Edit point: right click on point</p>
+    <p>Move point: drag point</p>
+    <p>----------------------</p>
+    <p>Add comment: Add comment button</p>
+    <p>Edit comment: left click on comment</p>
+</div>
+<div id="canvas-container" style="border: 1px solid black;">
+    <div id="konva-stage"></div>
+</div>
+
 </body>
 </html>

@@ -15,12 +15,13 @@ public class PointRepository : IPointRepository
 
     public async Task<IEnumerable<Point>> GetAllAsync()
     {
-        return await _context.Points.ToListAsync();
+        return await _context.Points.Include(p => p.Comments).ToListAsync();
     }
 
     public async Task<Point> GetByIdAsync(int id)
     {
-        return await _context.Points.FindAsync(id);
+        return await _context.Points.Include(p => p.Comments)
+            .FirstOrDefaultAsync(p => p.Id == id);
     }
 
     public async Task AddAsync(Point point)
